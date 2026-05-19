@@ -1,0 +1,44 @@
+:root{
+    --color-primario: lightblue ;
+    --color-secundario : green ; 
+    --color-texto : yellow ; 
+    --color-acento : red ;
+    --color-fondo-suave : orange ; 
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: var(--color-primario);
+    
+}
+
+nav ul {
+    list-style: circle;
+    display: flex;
+    justify-content: end;
+    background-color: var(--color-secundario);
+    padding: 10px;
+    gap: 45px ;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-texto);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
