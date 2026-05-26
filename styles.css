@@ -25,9 +25,9 @@ body {
 }
 
 nav ul {
-    list-style: circle;
+    list-style: none;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     background-color: var(--color-secundario);
     padding: 10px;
     gap: 45px ;
@@ -35,10 +35,10 @@ nav ul {
 }
 
 a{
-    text-decoration: none;
+    text-decoration :rgb(from color yellow red green);
     color: var(--color-texto);
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 
