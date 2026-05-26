@@ -1,5 +1,5 @@
 :root{
-    --color-primario: lightblue ;
+    --color-primario:  ;
     --color-secundario : green ; 
     --color-texto : yellow ; 
     --color-acento : red ;
@@ -35,10 +35,13 @@ nav ul {
 }
 
 a{
-    text-decoration :rgb(from color yellow red green);
+    text-decoration : none ;
     color: var(--color-texto);
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     
-}
+}h1{
+    color: var(--color-acento);
+    margin-top: 50px;
 
+}
