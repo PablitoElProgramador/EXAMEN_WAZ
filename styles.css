@@ -82,3 +82,25 @@ footer{
     text-align: center;
     padding: 20px;
 }
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding:12px 30px;
+    background: var(--color-acento);
+    color: var(--color-secundario);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: var(--transition);
+}
+.btn:hover{
+    background: #00f7b9;
+    transform: translateY(-2px);
+}
+/* Seccion de informacion */
+.info{
+    padding: 80px 20px;
+    max-width: 800px;
+    margin:0 auto;
+    text-align: center;
+}
